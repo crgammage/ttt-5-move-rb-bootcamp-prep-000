@@ -1,4 +1,3 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -13,6 +12,7 @@ def input_to_index(user_input)
 end
 
 def move(board, input_to_index, char = "X")
+  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   def update_board_at_with(array, index)
     board[input_to_index] = X
   end
