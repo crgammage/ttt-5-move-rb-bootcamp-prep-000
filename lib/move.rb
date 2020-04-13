@@ -10,6 +10,5 @@ def input_to_index(board)
   (user_input.to_i) - 1
 end
 
-def move(board, input_to_index)
-
+def move(input_to_index)
 end
